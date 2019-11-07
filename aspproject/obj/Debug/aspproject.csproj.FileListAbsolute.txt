@@ -1,0 +1,6 @@
+c:\users\lenovo\documents\visual studio 2013\Projects\aspproject\aspproject\bin\aspproject.dll.config
+c:\users\lenovo\documents\visual studio 2013\Projects\aspproject\aspproject\bin\aspproject.dll
+c:\users\lenovo\documents\visual studio 2013\Projects\aspproject\aspproject\bin\aspproject.pdb
+c:\users\lenovo\documents\visual studio 2013\Projects\aspproject\aspproject\obj\Debug\aspproject.dll
+c:\users\lenovo\documents\visual studio 2013\Projects\aspproject\aspproject\obj\Debug\aspproject.pdb
+c:\users\lenovo\documents\visual studio 2013\Projects\aspproject\aspproject\obj\Debug\aspproject.csprojResolveAssemblyReference.cache

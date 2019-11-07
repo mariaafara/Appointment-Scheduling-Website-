@@ -1,0 +1,77 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="MasterPage.master.cs" Inherits="aspproject.MasterPage" %>
+
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server" >
+
+
+  <title>mySmile</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+
+	  <asp:ContentPlaceHolder ID="head" runat="server" >
+
+    </asp:ContentPlaceHolder>
+
+</head>
+<body>
+    <div id="fh5co-page">
+    <form id="form1" runat="server">
+  
+		<!-- Header -->
+			<header id="header">
+				<div class="inner">
+					<a href="index.html" class="logo">mySmile</a>
+					<nav id="nav">
+				
+						<asp:Hyperlink ID="home"  runat="Server" NavigateUrl="home.aspx" >home</asp:Hyperlink> >
+						<asp:Hyperlink ID="dentists"  runat="Server" NavigateUrl="dentists.aspx">dentists</asp:Hyperlink> >
+						<asp:Hyperlink ID="booking" CssClass="control" runat="Server"  NavigateUrl="mybookings.aspx">myBookings</asp:Hyperlink> >
+                        <asp:LinkButton ID="log1" CssClass="control" runat="server" NavigateUrl="login.aspx" OnClick="log1_Click" Text="login"></asp:LinkButton>						
+                        <%--<asp:Hyperlink ID="log" CssClass="control" runat="Server"  NavigateUrl="login.aspx" Text="login"> </asp:Hyperlink> --%>
+                        <%--<asp:Button ID="Button1" runat="server" CssClass="control" 
+                            Text="login" BackColor="Transparent" BorderWidth="0px" OnClick="login"/>
+                   --%>
+					</nav>
+					<a href="#navPanel" class="navPanelToggle"><span class="fa fa-bars"></span></a>
+				</div>
+			</header>
+
+       <div>
+         <asp:ContentPlaceHolder ID="ContentPlaceHolder" runat="server">
+                
+
+
+        </asp:ContentPlaceHolder>
+
+      </div>
+      <!-- end page -->
+
+   	<!-- Footer -->
+			<footer id="footer">
+				<div class="inner">
+					<div class="flex">
+						<div class="copyright">
+							&copy; Untitled. Design: <a href="https://templated.co">TEMPLATED</a>. Images: <a href="https://unsplash.com">Unsplash</a>.
+						</div>
+						<ul class="icons">
+							<li><a href="#" class="icon fa-facebook"><span class="label">Facebook</span></a></li>
+							<li><a href="#" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
+							<li><a href="#" class="icon fa-linkedin"><span class="label">linkedIn</span></a></li>
+							<li><a href="#" class="icon fa-pinterest-p"><span class="label">Pinterest</span></a></li>
+							<li><a href="#" class="icon fa-vimeo"><span class="label">Vimeo</span></a></li>
+						</ul>
+					</div>
+				</div>
+			</footer>
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/skel.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+    </form>
+        </div>
+</body>
+
+</html>
